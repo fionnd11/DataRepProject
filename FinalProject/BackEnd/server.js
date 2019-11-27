@@ -116,6 +116,10 @@ app.put('/players/:id', function (req, res) {
     console.log("Update Players " + req.params.id);
     //List details
     console.log(req.body)
+    console.log(req.body.fname);
+          console.log(req.body.lname);
+          console.log(req.body.age);
+          console.log(req.body.club);
 
     //Find the player in the database and update the information
     PlayersModel.findByIdAndUpdate(req.params.id, req.body, {new: true},

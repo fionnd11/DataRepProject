@@ -5,17 +5,19 @@ import {CreateComponent} from './create/create.component';
 import { EditComponent } from './edit/edit.component';
 import { HomePageComponent } from 'src/app/home-page/home-page.component';
 import { SearchComponent } from './search/search.component';
+import { NewsComponent } from './news/news.component';
 
 
 
 const routes: Routes = [
+
+ {
+    path:'',
+    component: HomePageComponent
+  },
   {
     path: 'read',
     component: ReadComponent
-  },
-  {
-    path:'',
-    component: HomePageComponent
   },
   {
     path: 'create',
@@ -28,7 +30,12 @@ const routes: Routes = [
   {
     path:'search',
     component: SearchComponent
-  }
+  },
+  {
+  path:'news',
+  component: NewsComponent
+}
+
   
 ];
 

@@ -23,6 +23,7 @@ import { EditComponent } from './edit/edit.component';
 import {FormsModule} from '@angular/forms';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SearchComponent } from './search/search.component';
+import { NewsComponent } from './news/news.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { SearchComponent } from './search/search.component';
     ReadComponent,
     EditComponent,
     HomePageComponent,
-    SearchComponent
+    SearchComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
