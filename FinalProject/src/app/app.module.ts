@@ -22,6 +22,7 @@ import { ReadComponent } from './read/read.component';
 import { EditComponent } from './edit/edit.component';
 import {FormsModule} from '@angular/forms';
 import { HomePageComponent } from './home-page/home-page.component';
+import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     CreateComponent,
     ReadComponent,
     EditComponent,
-    HomePageComponent
+    HomePageComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

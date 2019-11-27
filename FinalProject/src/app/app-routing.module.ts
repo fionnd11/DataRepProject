@@ -4,6 +4,8 @@ import {ReadComponent} from './read/read.component'
 import {CreateComponent} from './create/create.component';
 import { EditComponent } from './edit/edit.component';
 import { HomePageComponent } from 'src/app/home-page/home-page.component';
+import { SearchComponent } from './search/search.component';
+
 
 
 const routes: Routes = [
@@ -22,6 +24,10 @@ const routes: Routes = [
   {
     path:'edit/:id',
     component: EditComponent
+  },
+  {
+    path:'search',
+    component: SearchComponent
   }
   
 ];
